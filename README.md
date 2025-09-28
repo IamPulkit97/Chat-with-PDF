@@ -13,9 +13,9 @@ cd <repo-directory>
 ```
 2. **Create a virtual environment:**
 ```bash
-python -m venv venv
+python -m venv <name of env>
 source venv/bin/activate  # macOS/Linux
-.\venv\Scripts\activate     # Windows
+.\<name of env>\Scripts\activate     # Windows
 ```
 
 3.**Install dependencies:**
@@ -25,8 +25,8 @@ pip install -r requirements.txt
 
 4.**Set environment variables:**
 ```bash
-export OPENAI_API_KEY="your_openai_api_key"  # macOS/Linux
-setx OPENAI_API_KEY "your_openai_api_key"    # Windows
+export OPENAI_API_KEY="<your open AI API key>"  # macOS/Linux
+setx OPENAI_API_KEY "<your open AI API key>"    # Windows
 ```
 
 5.**Run the app:**
